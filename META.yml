@@ -24,9 +24,10 @@ requires:
   File::ShareDir: 0
   HTML::Strip: 0
   Moose: 0
+  MooseX::Iterator: 0
   URI::Escape: 0
   XML::Compile::SOAP: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
