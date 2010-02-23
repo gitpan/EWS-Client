@@ -21,6 +21,7 @@ no_index:
 requires:
   DateTime: 0
   DateTime::Format::ISO8601: 0
+  File::ShareDir: 0
   HTML::Strip: 0
   Moose: 0
   URI::Escape: 0
@@ -28,4 +29,4 @@ requires:
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
