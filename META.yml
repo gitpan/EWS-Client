@@ -30,4 +30,4 @@ requires:
   XML::Compile::SOAP11: 0
   XML::Compile::Transport::SOAPHTTP: 0
   XML::Compile::WSDL11: 0
-version: 1.103530
+version: 1.103531
