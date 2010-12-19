@@ -1,4 +1,7 @@
 package EWS::Contacts::ResultSet;
+BEGIN {
+  $EWS::Contacts::ResultSet::VERSION = '1.103530';
+}
 use Moose;
 use MooseX::Iterator;
 

@@ -1,11 +1,11 @@
 package EWS::Client::Calendar;
+BEGIN {
+  $EWS::Client::Calendar::VERSION = '1.103530';
+}
 use Moose;
 
 with 'EWS::Calendar::Role::Reader';
 # could add future roles for updates, here
-
-our $VERSION = '0.01';
-$VERSION = eval $VERSION; # numify for warning-free dev releases
 
 has client => (
     is => 'ro',
@@ -26,7 +26,7 @@ EWS::Client::Calendar - Calendar Entries from Microsoft Exchange Server
 
 =head1 VERSION
 
-This document refers to version 0.01 of EWS::Client::Calendar
+version 1.103530
 
 =head1 SYNOPSIS
 

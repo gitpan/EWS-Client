@@ -1,4 +1,7 @@
 package EWS::Calendar::Item;
+BEGIN {
+  $EWS::Calendar::Item::VERSION = '1.103530';
+}
 use Moose;
 
 use Moose::Util::TypeConstraints;

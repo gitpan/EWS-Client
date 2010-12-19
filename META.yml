@@ -1,34 +1,33 @@
 ---
 abstract: 'Microsoft Exchange Web Services Client'
 author:
-  - 'Oliver Gorwits C<< <oliver.gorwits@oucs.ox.ac.uk> >>'
+  - 'Oliver Gorwits <oliver@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 0.91'
+  ExtUtils::MakeMaker: 6.31
+  File::ShareDir::Install: 0.03
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200000, CPAN::Meta::Converter version 2.102400'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: EWS-Client
-no_index:
-  directory:
-    - inc
-    - share
-    - t
 requires:
+  Carp: 0
   DateTime: 0
   DateTime::Format::ISO8601: 0
+  Encode: 0
   File::ShareDir: 0
   HTML::Strip: 0
   List::MoreUtils: 0
   Moose: 0
+  Moose::Role: 0
+  Moose::Util::TypeConstraints: 0
   MooseX::Iterator: 0
   URI::Escape: 0
-  XML::Compile::SOAP: 0
-  perl: 5.8.1
-resources:
-  license: http://dev.perl.org/licenses/
-version: 0.06
+  XML::Compile::SOAP11: 0
+  XML::Compile::Transport::SOAPHTTP: 0
+  XML::Compile::WSDL11: 0
+version: 1.103530

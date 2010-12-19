@@ -1,4 +1,7 @@
 package EWS::Calendar::Role::RetrieveWithinWindow;
+BEGIN {
+  $EWS::Calendar::Role::RetrieveWithinWindow::VERSION = '1.103530';
+}
 use Moose::Role;
 
 use EWS::Calendar::ResultSet;

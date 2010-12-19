@@ -1,4 +1,7 @@
 package EWS::Contacts::Item;
+BEGIN {
+  $EWS::Contacts::Item::VERSION = '1.103530';
+}
 use Moose;
 
 use List::MoreUtils 'uniq';

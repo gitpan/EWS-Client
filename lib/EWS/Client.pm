@@ -1,4 +1,7 @@
 package EWS::Client;
+BEGIN {
+  $EWS::Client::VERSION = '1.103530';
+}
 use Moose;
 
 with qw/
@@ -9,9 +12,6 @@ with qw/
 use EWS::Client::Contacts;
 use EWS::Client::Calendar;
 use URI::Escape ();
-
-our $VERSION = '0.06';
-$VERSION = eval $VERSION; # numify for warning-free dev releases
 
 has username => (
     is => 'ro',
@@ -80,7 +80,7 @@ EWS::Client - Microsoft Exchange Web Services Client
 
 =head1 VERSION
 
-This document refers to version 0.06 of EWS::Client
+version 1.103530
 
 =head1 SYNOPSIS
 

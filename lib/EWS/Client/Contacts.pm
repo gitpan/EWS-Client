@@ -1,11 +1,11 @@
 package EWS::Client::Contacts;
+BEGIN {
+  $EWS::Client::Contacts::VERSION = '1.103530';
+}
 use Moose;
 
 with 'EWS::Contacts::Role::Reader';
 # could add future roles for updates, here
-
-our $VERSION = '0.01';
-$VERSION = eval $VERSION; # numify for warning-free dev releases
 
 has client => (
     is => 'ro',
@@ -26,7 +26,7 @@ EWS::Client::Contacts - Contact Entries from Microsoft Exchange Server
 
 =head1 VERSION
 
-This document refers to version 0.01 of EWS::Client::Contacts
+version 1.103530
 
 =head1 SYNOPSIS
 

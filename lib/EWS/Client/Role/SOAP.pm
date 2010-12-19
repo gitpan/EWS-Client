@@ -1,4 +1,7 @@
 package EWS::Client::Role::SOAP;
+BEGIN {
+  $EWS::Client::Role::SOAP::VERSION = '1.103530';
+}
 use Moose::Role;
 
 use XML::Compile::WSDL11;

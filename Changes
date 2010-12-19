@@ -1,3 +1,7 @@
+1.103530  2010-12-19 21:38:55 Europe/London
+
+  * Port to Dist::Zilla
+
 libews-client-perl (0.06) UNRELEASED; urgency=low
 
   * Add check for no items returned from server - thanks Mike M. 
