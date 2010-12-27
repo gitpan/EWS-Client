@@ -1,6 +1,6 @@
 package EWS::Client::Calendar;
 BEGIN {
-  $EWS::Client::Calendar::VERSION = '1.103531';
+  $EWS::Client::Calendar::VERSION = '1.103610';
 }
 use Moose;
 
@@ -18,7 +18,11 @@ __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
 
+# ABSTRACT: Calendar Entries from Microsoft Exchange Server
+
+
 __END__
+=pod
 
 =head1 NAME
 
@@ -26,7 +30,7 @@ EWS::Client::Calendar - Calendar Entries from Microsoft Exchange Server
 
 =head1 VERSION
 
-version 1.103531
+version 1.103610
 
 =head1 SYNOPSIS
 
@@ -322,13 +326,14 @@ want to help out.
 
 =head1 AUTHOR
 
-Oliver Gorwits C<< <oliver.gorwits@oucs.ox.ac.uk> >>
+Oliver Gorwits <oliver@cpan.org>
 
-=head1 COPYRIGHT & LICENSE
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) University of Oxford 2010.
+This software is copyright (c) 2010 by University of Oxford.
 
-This library is free software; you can redistribute it and/or modify it under
-the same terms as Perl itself.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
+
